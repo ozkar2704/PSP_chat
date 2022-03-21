@@ -33,7 +33,7 @@ public class Server2 implements ActionListener{
         p1.setBounds(0, 0, 450, 70);
         f1.add(p1);
 
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/1.png"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/3.png"));
         Image i2 = i1.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l1 = new JLabel(i3);
